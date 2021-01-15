@@ -1,0 +1,19 @@
+{
+    "name": "waiyanhein/lumen-signed-url",
+    "description": "Package to generate temporary signd URL for Lumen framework",
+    "authors": [
+        {
+            "name": "Wai Yan Hein",
+            "email": "iljimae.ic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "laravel/lumen-framework": ">=5.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waiyanhein\\LumenSignedUrl\\": "src/"
+        }
+    }
+}
